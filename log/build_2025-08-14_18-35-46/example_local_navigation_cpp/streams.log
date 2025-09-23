@@ -1,0 +1,74 @@
+[0.119s] Invoking command in '/root/ws_sensor_combined/build/example_local_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation -DCMAKE_INSTALL_PREFIX=/root/ws_sensor_combined/install/example_local_navigation_cpp
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.604s] -- The CXX compiler identification is GNU 11.4.0
+[0.811s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.911s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.912s] -- Detecting C compile features
+[0.912s] -- Detecting C compile features - done
+[0.914s] -- Detecting CXX compiler ABI info
+[1.021s] -- Detecting CXX compiler ABI info - done
+[1.026s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.027s] -- Detecting CXX compile features
+[1.027s] -- Detecting CXX compile features - done
+[1.029s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.035s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.036s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.421s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.500s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.623s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.629s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.640s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.732s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.735s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.456s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.102s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.168s] -- Looking for pthread.h
+[6.294s] -- Looking for pthread.h - found
+[6.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.411s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.413s] -- Found Threads: TRUE  
+[6.470s] -- Found px4_ros2_cpp: 0.0.1 (/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+[6.490s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.578s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.580s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.580s] -- Configured cppcheck include dirs: /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation/include
+[6.580s] -- Configured cppcheck exclude dirs and/or files: 
+[6.581s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.582s] -- Configured cpplint exclude dirs and/or files: 
+[6.583s] -- Added test 'lint_cmake' to check CMake code style
+[6.584s] -- Added test 'uncrustify' to check C / C++ code style
+[6.584s] -- Configured uncrustify additional arguments: 
+[6.584s] -- Added test 'xmllint' to check XML markup files
+[6.585s] -- Configuring done
+[6.592s] -- Generating done
+[6.595s] -- Build files have been written to: /root/ws_sensor_combined/build/example_local_navigation_cpp
+[6.604s] Invoked command in '/root/ws_sensor_combined/build/example_local_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation -DCMAKE_INSTALL_PREFIX=/root/ws_sensor_combined/install/example_local_navigation_cpp
+[6.607s] Invoking command in '/root/ws_sensor_combined/build/example_local_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/example_local_navigation_cpp -- -j20 -l20
+[6.657s] [ 50%] [32mBuilding CXX object CMakeFiles/example_local_navigation.dir/src/main.cpp.o[0m
+[10.682s] [100%] [32m[1mLinking CXX executable example_local_navigation[0m
+[11.878s] [100%] Built target example_local_navigation
+[11.891s] Invoked command in '/root/ws_sensor_combined/build/example_local_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/example_local_navigation_cpp -- -j20 -l20
+[11.895s] Invoking command in '/root/ws_sensor_combined/build/example_local_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/example_local_navigation_cpp
+[11.907s] -- Install configuration: ""
+[11.907s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/lib/example_local_navigation_cpp/example_local_navigation
+[11.908s] -- Set runtime path of "/root/ws_sensor_combined/install/example_local_navigation_cpp/lib/example_local_navigation_cpp/example_local_navigation" to ""
+[11.908s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/ament_index/resource_index/package_run_dependencies/example_local_navigation_cpp
+[11.909s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/ament_index/resource_index/parent_prefix_path/example_local_navigation_cpp
+[11.910s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/environment/ament_prefix_path.sh
+[11.910s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/environment/ament_prefix_path.dsv
+[11.910s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/environment/path.sh
+[11.910s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/environment/path.dsv
+[11.910s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/local_setup.bash
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/local_setup.sh
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/local_setup.zsh
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/local_setup.dsv
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.dsv
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/ament_index/resource_index/packages/example_local_navigation_cpp
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/cmake/example_local_navigation_cppConfig.cmake
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/cmake/example_local_navigation_cppConfig-version.cmake
+[11.912s] -- Installing: /root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.xml
+[11.914s] Invoked command in '/root/ws_sensor_combined/build/example_local_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/example_local_navigation_cpp

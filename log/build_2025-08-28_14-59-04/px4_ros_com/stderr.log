@@ -1,0 +1,92 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:51[m[K:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint_body()[m[K’:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:338:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  338 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Waypoint %d: raw [%d, %d] -> rotated [%.2f, %.2f]"[m[K,
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:338:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  338 |     RCLCPP_INFO(this->get_logger(), "Waypoint %d: raw [[01;36m[K%d[m[K, %d] -> rotated [%.2f, %.2f]",
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:51[m[K:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:338:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  338 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Waypoint %d: raw [%d, %d] -> rotated [%.2f, %.2f]"[m[K,
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:338:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  338 |     RCLCPP_INFO(this->get_logger(), "Waypoint %d: raw [%d, [01;36m[K%d[m[K] -> rotated [%.2f, %.2f]",
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kint[m[K
+      |                                                            [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:51[m[K:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint_local(OffboardControl::states_alias)[m[K’:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:369:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  369 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"trajectory setpoint %ld sent: position = [%f, %f, %f]"[m[K,
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:369:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  369 |         RCLCPP_INFO(this->get_logger(), "trajectory setpoint [01;36m[K%ld[m[K sent: position = [%f, %f, %f]",
+      |                                                              [01;36m[K~~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Klong int[m[K
+      |                                                              [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:51[m[K:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:369:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  369 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"trajectory setpoint %ld sent: position = [%f, %f, %f]"[m[K,
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:369:93:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  369 |         RCLCPP_INFO(this->get_logger(), "trajectory setpoint %ld sent: position = [%f, %f, [01;36m[K%f[m[K]",
+      |                                                                                            [01;36m[K~^[m[K
+      |                                                                                             [01;36m[K|[m[K
+      |                                                                                             [01;36m[Kdouble[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:349:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  349 | void OffboardControl::publish_trajectory_setpoint_local([01;35m[Kstates_alias state[m[K)
+      |                                                         [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::get_rotated_waypoint(int, float&, float&)[m[K’:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:410:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  410 | void OffboardControl::get_rotated_waypoint([01;35m[Kint index[m[K, float &x, float &y) {
+      |                                            [01;35m[K~~~~^~~~~[m[K

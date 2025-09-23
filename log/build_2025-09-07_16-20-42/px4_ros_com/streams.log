@@ -1,0 +1,74 @@
+[0.024s] Invoking command in '/root/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros_com -- -j20 -l20
+[0.060s] [  5%] [32mBuilding CXX object CMakeFiles/mavros_offboard.dir/src/examples/offboard/mavros_offboard.cpp.o[0m
+[0.060s] [ 16%] Built target sensor_combined_listener
+[0.061s] [ 27%] Built target offboard_control_square
+[0.062s] [ 38%] Built target offboard_control
+[0.062s] [ 50%] Built target frame_transforms
+[0.062s] [ 61%] Built target vehicle_gps_position_listener
+[0.064s] [ 72%] Built target offboard_control_enae788m
+[0.064s] [ 83%] Built target offboard_control_srv
+[0.064s] [ 83%] Built target ament_cmake_python_symlink_px4_ros_com
+[0.065s] [ 94%] Built target debug_vect_advertiser
+[0.189s] running egg_info
+[0.201s] writing px4_ros_com.egg-info/PKG-INFO
+[0.201s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[0.201s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[0.231s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.232s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.254s] [ 94%] Built target ament_cmake_python_build_px4_ros_com_egg
+[2.290s] [100%] [32m[1mLinking CXX executable mavros_offboard[0m
+[2.391s] [100%] Built target mavros_offboard
+[2.398s] Invoked command in '/root/ws_sensor_combined/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros_com -- -j20 -l20
+[2.398s] Invoking command in '/root/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros_com
+[2.402s] -- Install configuration: "RelWithDebInfo"
+[2.403s] -- Execute custom install script
+[2.403s] -- Symlinking: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/mavros_offboard
+[2.408s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[2.408s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[2.408s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[2.408s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[2.408s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_enae788m
+[2.409s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_square
+[2.409s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[2.409s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[2.409s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[2.409s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[2.410s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[2.411s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[2.412s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[2.412s] -- Symlinking: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv
+[2.418s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[2.418s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.418s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[2.418s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.418s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[2.418s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[2.419s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[2.419s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.xml
+[2.419s] -- Up-to-date: /root/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so
+[2.437s] Listing '/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[2.439s] -- Up-to-date: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[2.439s] -- Up-to-date: /root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-relwithdebinfo.cmake
+[2.441s] Invoked command in '/root/ws_sensor_combined/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros_com

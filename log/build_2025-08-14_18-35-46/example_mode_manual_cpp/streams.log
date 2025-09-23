@@ -1,0 +1,74 @@
+[0.136s] Invoking command in '/root/ws_sensor_combined/build/example_mode_manual_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual -DCMAKE_INSTALL_PREFIX=/root/ws_sensor_combined/install/example_mode_manual_cpp
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.576s] -- The CXX compiler identification is GNU 11.4.0
+[0.737s] -- Detecting C compiler ABI info
+[0.827s] -- Detecting C compiler ABI info - done
+[0.832s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.832s] -- Detecting C compile features
+[0.832s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[0.950s] -- Detecting CXX compiler ABI info - done
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.957s] -- Detecting CXX compile features
+[0.957s] -- Detecting CXX compile features - done
+[0.959s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.965s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.966s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.477s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.612s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.618s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.630s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.721s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.725s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.449s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.241s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.575s] -- Looking for pthread.h
+[5.676s] -- Looking for pthread.h - found
+[5.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.769s] -- Found Threads: TRUE  
+[5.809s] -- Found px4_ros2_cpp: 0.0.1 (/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+[5.826s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.902s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.903s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.903s] -- Configured cppcheck include dirs: /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual/include
+[5.903s] -- Configured cppcheck exclude dirs and/or files: 
+[5.904s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.904s] -- Configured cpplint exclude dirs and/or files: 
+[5.906s] -- Added test 'lint_cmake' to check CMake code style
+[5.907s] -- Added test 'uncrustify' to check C / C++ code style
+[5.907s] -- Configured uncrustify additional arguments: 
+[5.908s] -- Added test 'xmllint' to check XML markup files
+[5.910s] -- Configuring done
+[5.921s] -- Generating done
+[5.925s] -- Build files have been written to: /root/ws_sensor_combined/build/example_mode_manual_cpp
+[5.943s] Invoked command in '/root/ws_sensor_combined/build/example_mode_manual_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual -DCMAKE_INSTALL_PREFIX=/root/ws_sensor_combined/install/example_mode_manual_cpp
+[5.943s] Invoking command in '/root/ws_sensor_combined/build/example_mode_manual_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_manual_cpp -- -j20 -l20
+[5.985s] [ 50%] [32mBuilding CXX object CMakeFiles/example_mode_manual.dir/src/main.cpp.o[0m
+[10.650s] [100%] [32m[1mLinking CXX executable example_mode_manual[0m
+[11.883s] [100%] Built target example_mode_manual
+[11.895s] Invoked command in '/root/ws_sensor_combined/build/example_mode_manual_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_manual_cpp -- -j20 -l20
+[11.897s] Invoking command in '/root/ws_sensor_combined/build/example_mode_manual_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_manual_cpp
+[11.907s] -- Install configuration: ""
+[11.907s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/lib/example_mode_manual_cpp/example_mode_manual
+[11.908s] -- Set runtime path of "/root/ws_sensor_combined/install/example_mode_manual_cpp/lib/example_mode_manual_cpp/example_mode_manual" to ""
+[11.909s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/ament_index/resource_index/package_run_dependencies/example_mode_manual_cpp
+[11.909s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/ament_index/resource_index/parent_prefix_path/example_mode_manual_cpp
+[11.910s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/environment/ament_prefix_path.sh
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/environment/ament_prefix_path.dsv
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/environment/path.sh
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/environment/path.dsv
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/local_setup.bash
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/local_setup.sh
+[11.911s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/local_setup.zsh
+[11.912s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/local_setup.dsv
+[11.913s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.dsv
+[11.913s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/ament_index/resource_index/packages/example_mode_manual_cpp
+[11.913s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/cmake/example_mode_manual_cppConfig.cmake
+[11.913s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/cmake/example_mode_manual_cppConfig-version.cmake
+[11.913s] -- Installing: /root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.xml
+[11.926s] Invoked command in '/root/ws_sensor_combined/build/example_mode_manual_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_manual_cpp

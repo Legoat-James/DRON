@@ -1,0 +1,15 @@
+[31mCMake Error at CMakeLists.txt:71 (add_executable):
+  add_executable cannot create target "offboard_control_enae788m" because
+  another target with the same name already exists.  The existing target is
+  an executable created in source directory
+  "/root/ws_sensor_combined/src/px4_ros_com".  See documentation for policy
+  CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:72 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:541: cmake_check_build_system] Error 1

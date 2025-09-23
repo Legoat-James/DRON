@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[ 16%] Built target vehicle_gps_position_listener
+[ 50%] Built target debug_vect_advertiser
+[ 50%] Built target offboard_control_srv
+[ 66%] Built target sensor_combined_listener
+[ 75%] Built target ament_cmake_python_copy_px4_ros_com
+[ 83%] Built target frame_transforms
+[ 91%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control_enae788m.cpp.o[0m
+running egg_info
+writing px4_ros_com.egg-info/PKG-INFO
+writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+writing top-level names to px4_ros_com.egg-info/top_level.txt
+reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_px4_ros_com_egg
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_enae788m.cpp:[m[K In lambda function:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_enae788m.cpp:102:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst char*[m[K’
+  102 |             printf([01;31m[Kmodf(((double)offboard_setpoint_counter_)/2, &intpart)[m[K);
+      |                    [01;31m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kdouble[m[K
+In file included from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+                 from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/root/ws_sensor_combined/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:11[m[K,
+                 from [01m[K/root/ws_sensor_combined/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+                 from [01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_enae788m.cpp:41[m[K:
+[01m[K/usr/include/stdio.h:356:43:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint printf(const char*, ...)[m[K’
+  356 | extern int printf ([01;36m[Kconst char *__restrict __format[m[K, ...);
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/offboard_control.dir/build.make:76: CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control_enae788m.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:254: CMakeFiles/offboard_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

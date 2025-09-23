@@ -1,0 +1,74 @@
+[0.000s] Invoking command in '/root/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ws_sensor_combined/src/px4_ros_com -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_sensor_combined/install/px4_ros_com
+[0.001s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.001s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.001s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.076s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.077s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.080s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.088s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.102s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.104s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.117s] -- Found px4_msgs: 2.0.1 (/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+[0.124s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.138s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.139s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.703s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.712s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.720s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.764s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.766s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.766s] -- Configured cppcheck include dirs: /root/ws_sensor_combined/src/px4_ros_com/include;$<BUILD_INTERFACE:/root/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com>
+[1.766s] -- Configured cppcheck exclude dirs and/or files: 
+[1.768s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.768s] -- Configured cpplint exclude dirs and/or files: 
+[1.768s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.769s] -- Added test 'lint_cmake' to check CMake code style
+[1.769s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.771s] -- Added test 'uncrustify' to check C / C++ code style
+[1.771s] -- Configured uncrustify additional arguments: 
+[1.771s] -- Added test 'xmllint' to check XML markup files
+[1.772s] -- Configuring done
+[1.790s] -- Generating done
+[1.797s] -- Build files have been written to: /root/ws_sensor_combined/build/px4_ros_com
+[1.806s] Invoked command in '/root/ws_sensor_combined/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /root/ws_sensor_combined/src/px4_ros_com -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws_sensor_combined/install/px4_ros_com
+[1.807s] Invoking command in '/root/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros_com -- -j20 -l20
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target frame_transforms[0m
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_enae788m[0m
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_square[0m
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target debug_vect_advertiser[0m
+[1.834s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[1.836s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_srv[0m
+[1.841s] [ 12%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.842s] [ 12%] [32mBuilding CXX object CMakeFiles/offboard_control_enae788m.dir/src/examples/offboard/offboard_control_enae788m.cpp.o[0m
+[1.842s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.845s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.845s] [ 31%] [32mBuilding CXX object CMakeFiles/offboard_control_square.dir/src/examples/offboard/offboard_control_square.cpp.o[0m
+[1.846s] [ 37%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.846s] failed to create symbolic link '/root/ws_sensor_combined/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com' because existing path cannot be removed: Is a directory
+[1.846s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_px4_ros_com] Error 1
+[1.847s] gmake[1]: *** [CMakeFiles/Makefile2:362: CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/all] Error 2
+[1.847s] gmake[1]: *** Waiting for unfinished jobs....
+[1.848s] [ 43%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.852s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[75.479s] [ 56%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[76.105s] [ 56%] Built target debug_vect_advertiser
+[76.877s] [ 62%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[77.171s] [ 68%] [32m[1mLinking CXX executable offboard_control[0m
+[77.217s] [ 68%] Built target offboard_control_srv
+[77.516s] [ 68%] Built target offboard_control
+[88.151s] [ 75%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[88.758s] [ 75%] Built target frame_transforms
+[92.539s] [ 81%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[93.075s] [ 81%] Built target vehicle_gps_position_listener
+[100.978s] [ 87%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[101.334s] [ 87%] Built target sensor_combined_listener
+[102.563s] [ 93%] [32m[1mLinking CXX executable offboard_control_enae788m[0m
+[102.903s] [ 93%] Built target offboard_control_enae788m
+[116.782s] [100%] [32m[1mLinking CXX executable offboard_control_square[0m
+[117.191s] [100%] Built target offboard_control_square
+[117.201s] gmake: *** [Makefile:146: all] Error 2
+[117.272s] Invoked command in '/root/ws_sensor_combined/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros_com -- -j20 -l20

@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/root/ws_sensor_combined/install/px4_ros_com/include/**",
+        "/root/ws_sensor_combined/install/px4_ros2_cpp/include/**",
+        "/root/ws_sensor_combined/install/px4_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto_global/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/vtol/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation/include/**",
+        "/root/ws_sensor_combined/src/px4-ros2-interface-lib/px4_ros2_cpp/include/**",
+        "/root/ws_sensor_combined/src/px4_ros_com/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,47 @@
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:69:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   69 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koffboard_control_mode_publisher_[m[K’ was not declared in this scope
+   59 |         [01;31m[Koffboard_control_mode_publisher_[m[K = this->create_publisher<OffboardControlMode>("/fmu/in/offboard_control_mode", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:60:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_setpoint_publisher_[m[K’ was not declared in this scope
+   60 |                 [01;31m[Ktrajectory_setpoint_publisher_[m[K = this->create_publisher<TrajectorySetpoint>("/fmu/in/trajectory_setpoint", 10);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:61:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_command_publisher_[m[K’ was not declared in this scope
+   61 |                 [01;31m[Kvehicle_command_publisher_[m[K = this->create_publisher<VehicleCommand>("/fmu/in/vehicle_command", 10);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::arm()[m[K’:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:91:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_vehicle_command[m[K’ was not declared in this scope
+   91 |         [01;31m[Kpublish_vehicle_command[m[K(VehicleCommand::VEHICLE_CMD_COMPONENT_ARM_DISARM, 1.0);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::disarm()[m[K’:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_vehicle_command[m[K’ was not declared in this scope
+  101 |         [01;31m[Kpublish_vehicle_command[m[K(VehicleCommand::VEHICLE_CMD_COMPONENT_ARM_DISARM, 0.0);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:[m[K At global scope:
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:110:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid OffboardControl::publish_offboard_control_mode()[m[K’
+  110 | void [01;31m[KOffboardControl[m[K::publish_offboard_control_mode()
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:110:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid OffboardControl::publish_offboard_control_mode()[m[K’
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:55:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass OffboardControl[m[K’ defined here
+   55 | class [01;36m[KOffboardControl[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:128:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint()[m[K’
+  128 | void [01;31m[KOffboardControl[m[K::publish_trajectory_setpoint()
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:128:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint()[m[K’
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:55:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass OffboardControl[m[K’ defined here
+   55 | class [01;36m[KOffboardControl[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:138:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid OffboardControl::publish_vehicle_command(uint16_t, float, float)[m[K’
+  138 | void [01;31m[KOffboardControl[m[K::publish_vehicle_command(uint16_t command, float param1, float param2)
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:138:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid OffboardControl::publish_vehicle_command(uint16_t, float, float)[m[K’
+[01m[K/root/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_control_square.cpp:55:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass OffboardControl[m[K’ defined here
+   55 | class [01;36m[KOffboardControl[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/offboard_control_square.dir/build.make:76: CMakeFiles/offboard_control_square.dir/src/examples/offboard/offboard_control_square.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:310: CMakeFiles/offboard_control_square.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
