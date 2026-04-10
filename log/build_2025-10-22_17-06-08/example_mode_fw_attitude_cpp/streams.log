@@ -1,0 +1,51 @@
+[0.192s] Invoking command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp -- -j20 -l20
+[0.262s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.633s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.636s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.717s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.313s] -- Found px4_ros2_cpp: 0.0.1 (/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+[5.332s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.403s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.404s] -- Configured cppcheck include dirs: /root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude/include
+[5.404s] -- Configured cppcheck exclude dirs and/or files: 
+[5.405s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.405s] -- Configured cpplint exclude dirs and/or files: 
+[5.405s] -- Added test 'lint_cmake' to check CMake code style
+[5.406s] -- Added test 'uncrustify' to check C / C++ code style
+[5.406s] -- Configured uncrustify additional arguments: 
+[5.407s] -- Added test 'xmllint' to check XML markup files
+[5.409s] -- Configuring done
+[5.421s] -- Generating done
+[5.425s] -- Build files have been written to: /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp
+[5.445s] [35m[1mConsolidate compiler generated dependencies of target example_mode_fw_attitude[0m
+[5.460s] [ 50%] [32mBuilding CXX object CMakeFiles/example_mode_fw_attitude.dir/src/main.cpp.o[0m
+[8.838s] [100%] [32m[1mLinking CXX executable example_mode_fw_attitude[0m
+[9.074s] [100%] Built target example_mode_fw_attitude
+[9.087s] Invoked command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp -- -j20 -l20
+[9.090s] Invoking command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp
+[9.096s] -- Install configuration: ""
+[9.098s] -- Installing: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib/example_mode_fw_attitude_cpp/example_mode_fw_attitude
+[9.098s] -- Set runtime path of "/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib/example_mode_fw_attitude_cpp/example_mode_fw_attitude" to ""
+[9.098s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/ament_index/resource_index/package_run_dependencies/example_mode_fw_attitude_cpp
+[9.099s] -- Installing: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/ament_index/resource_index/parent_prefix_path/example_mode_fw_attitude_cpp
+[9.099s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/environment/ament_prefix_path.sh
+[9.099s] -- Installing: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/environment/ament_prefix_path.dsv
+[9.099s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/environment/path.sh
+[9.099s] -- Installing: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/environment/path.dsv
+[9.099s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/local_setup.bash
+[9.099s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/local_setup.sh
+[9.099s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/local_setup.zsh
+[9.099s] -- Installing: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/local_setup.dsv
+[9.099s] -- Installing: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.dsv
+[9.100s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/ament_index/resource_index/packages/example_mode_fw_attitude_cpp
+[9.100s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/cmake/example_mode_fw_attitude_cppConfig.cmake
+[9.100s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/cmake/example_mode_fw_attitude_cppConfig-version.cmake
+[9.100s] -- Up-to-date: /root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.xml
+[9.103s] Invoked command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp

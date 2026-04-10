@@ -1,0 +1,1046 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ec2e1c5ace0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ec2e1c5a6e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ec2e1c5a6e0>>, mixin_verb=('build',))
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.178s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ws_sensor_combined'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(rgb_images) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes' with type 'ros.ament_cmake' and name 'example_executor_with_multiple_modes_cpp'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude' with type 'ros.ament_cmake' and name 'example_mode_fw_attitude_cpp'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/goto' with type 'ros.ament_cmake' and name 'example_mode_goto_cpp'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/goto_global' with type 'ros.ament_cmake' and name 'example_mode_goto_global_cpp'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/manual' with type 'ros.ament_cmake' and name 'example_mode_manual_cpp'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor' with type 'ros.ament_cmake' and name 'example_mode_with_executor_cpp'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement' with type 'ros.ament_cmake' and name 'example_mode_rtl_replacement_cpp'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/vtol' with type 'ros.ament_cmake' and name 'example_mode_vtol_cpp'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation' with type 'ros.ament_cmake' and name 'example_global_navigation_cpp'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation' with type 'ros.ament_cmake' and name 'example_local_navigation_cpp'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/px4_ros2_cpp' with type 'ros.ament_cmake' and name 'px4_ros2_cpp'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(thermal_images) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/px4_msgs', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/px4_ros2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/px4_ros2_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/px4_ros2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/px4_ros_com', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'example_executor_with_multiple_modes_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'example_global_navigation_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_global_navigation_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_global_navigation_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'example_local_navigation_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_local_navigation_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_local_navigation_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_fw_attitude_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_goto_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_goto_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_goto_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_goto_global_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_goto_global_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_goto_global_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto_global', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_manual_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_manual_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_manual_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_rtl_replacement_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_vtol_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_vtol_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_vtol_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/vtol', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_with_executor_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ws_sensor_combined/build/example_mode_with_executor_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ws_sensor_combined/install/example_mode_with_executor_cpp', 'merge_install': False, 'path': '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4_msgs' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4_msgs'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_msgs -- -j20 -l20
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_msgs -- -j20 -l20
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_msgs
+[1.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_msgs
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs' for CMake module files
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs' for CMake config files
+[1.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/lib'
+[1.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/bin'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/bin'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.sh'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.bash'
+[1.417s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs' for CMake module files
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs' for CMake config files
+[1.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/lib'
+[1.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/bin'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_msgs/bin'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.bash'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/px4_ros2_cpp' with build type 'ament_cmake'
+[1.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/px4_ros2_cpp'
+[1.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4_ros_com' with build type 'ament_cmake'
+[1.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4_ros_com'
+[1.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros2_cpp -- -j20 -l20
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros_com -- -j20 -l20
+[1.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros2_cpp -- -j20 -l20
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros2_cpp
+[1.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros2_cpp)
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros2_cpp
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp' for CMake module files
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp' for CMake config files
+[1.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros2_cpp', 'cmake_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/cmake_prefix_path.ps1'
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/cmake_prefix_path.dsv'
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/cmake_prefix_path.sh'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/lib'
+[1.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros2_cpp', 'ld_library_path_lib')
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/ld_library_path_lib.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/ld_library_path_lib.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/ld_library_path_lib.sh'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/bin'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/lib/pkgconfig/px4_ros2_cpp.pc'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/lib/python3.10/site-packages'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/bin'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.bash'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.zsh'
+[1.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/px4_ros2_cpp/share/colcon-core/packages/px4_ros2_cpp)
+[1.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros2_cpp)
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp' for CMake module files
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp' for CMake config files
+[1.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros2_cpp', 'cmake_prefix_path')
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/cmake_prefix_path.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/cmake_prefix_path.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/cmake_prefix_path.sh'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/lib'
+[1.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros2_cpp', 'ld_library_path_lib')
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/ld_library_path_lib.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/ld_library_path_lib.dsv'
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/hook/ld_library_path_lib.sh'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/bin'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/lib/pkgconfig/px4_ros2_cpp.pc'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/lib/python3.10/site-packages'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros2_cpp/bin'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.sh'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.bash'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.zsh'
+[1.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/px4_ros2_cpp/share/colcon-core/packages/px4_ros2_cpp)
+[1.708s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes' with build type 'ament_cmake'
+[1.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes'
+[1.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation' with build type 'ament_cmake'
+[1.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation'
+[1.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.713s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation' with build type 'ament_cmake'
+[1.713s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation'
+[1.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude' with build type 'ament_cmake'
+[1.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude'
+[1.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.716s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.718s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto' with build type 'ament_cmake'
+[1.718s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto'
+[1.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto_global' with build type 'ament_cmake'
+[1.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/goto_global'
+[1.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual' with build type 'ament_cmake'
+[1.728s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/manual'
+[1.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement' with build type 'ament_cmake'
+[1.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement'
+[1.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/vtol' with build type 'ament_cmake'
+[1.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/vtol'
+[1.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.738s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor' with build type 'ament_cmake'
+[1.738s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ws_sensor_combined/src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor'
+[1.738s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp -- -j20 -l20
+[1.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_global_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_global_navigation_cpp -- -j20 -l20
+[1.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_local_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_local_navigation_cpp -- -j20 -l20
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp -- -j20 -l20
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_manual_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_manual_cpp -- -j20 -l20
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_goto_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_goto_cpp -- -j20 -l20
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp -- -j20 -l20
+[1.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_goto_global_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_goto_global_cpp -- -j20 -l20
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_vtol_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_vtol_cpp -- -j20 -l20
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_with_executor_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_with_executor_cpp -- -j20 -l20
+[1.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_global_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_global_navigation_cpp -- -j20 -l20
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_global_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_global_navigation_cpp
+[1.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp -- -j20 -l20
+[1.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp -- -j20 -l20
+[1.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp
+[1.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_local_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_local_navigation_cpp -- -j20 -l20
+[1.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_fw_attitude_cpp)
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp' for CMake module files
+[1.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_local_navigation_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_local_navigation_cpp
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp' for CMake config files
+[1.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_fw_attitude_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_fw_attitude_cpp
+[1.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_fw_attitude_cpp', 'cmake_prefix_path')
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/hook/cmake_prefix_path.ps1'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/hook/cmake_prefix_path.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/hook/cmake_prefix_path.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/bin'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib/pkgconfig/example_mode_fw_attitude_cpp.pc'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib/python3.10/site-packages'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/bin'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.dsv'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.sh'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.bash'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.zsh'
+[1.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/colcon-core/packages/example_mode_fw_attitude_cpp)
+[1.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_fw_attitude_cpp)
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp' for CMake module files
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp' for CMake config files
+[1.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_fw_attitude_cpp', 'cmake_prefix_path')
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/hook/cmake_prefix_path.ps1'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/hook/cmake_prefix_path.dsv'
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/hook/cmake_prefix_path.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/bin'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib/pkgconfig/example_mode_fw_attitude_cpp.pc'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/lib/python3.10/site-packages'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/bin'
+[1.936s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.ps1'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.dsv'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.sh'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.bash'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/example_mode_fw_attitude_cpp/package.zsh'
+[1.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp/share/colcon-core/packages/example_mode_fw_attitude_cpp)
+[1.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_global_navigation_cpp)
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp' for CMake module files
+[1.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_global_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_global_navigation_cpp
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp' for CMake config files
+[1.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_global_navigation_cpp', 'cmake_prefix_path')
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/hook/cmake_prefix_path.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/hook/cmake_prefix_path.dsv'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/hook/cmake_prefix_path.sh'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/lib'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/bin'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/lib/pkgconfig/example_global_navigation_cpp.pc'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/lib/python3.10/site-packages'
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/bin'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.ps1'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.dsv'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.sh'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.bash'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.zsh'
+[1.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_global_navigation_cpp/share/colcon-core/packages/example_global_navigation_cpp)
+[1.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_global_navigation_cpp)
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp' for CMake module files
+[1.944s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp' for CMake config files
+[1.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_global_navigation_cpp', 'cmake_prefix_path')
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/hook/cmake_prefix_path.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/hook/cmake_prefix_path.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/hook/cmake_prefix_path.sh'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/lib'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/bin'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/lib/pkgconfig/example_global_navigation_cpp.pc'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/lib/python3.10/site-packages'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_global_navigation_cpp/bin'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.ps1'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.dsv'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.sh'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.bash'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_global_navigation_cpp/share/example_global_navigation_cpp/package.zsh'
+[1.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_global_navigation_cpp/share/colcon-core/packages/example_global_navigation_cpp)
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_manual_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_manual_cpp -- -j20 -l20
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_manual_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_manual_cpp
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_goto_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_goto_cpp -- -j20 -l20
+[1.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_goto_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_goto_cpp
+[1.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_executor_with_multiple_modes_cpp)
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp' for CMake module files
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_executor_with_multiple_modes_cpp
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp' for CMake config files
+[1.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_executor_with_multiple_modes_cpp', 'cmake_prefix_path')
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/hook/cmake_prefix_path.ps1'
+[1.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/hook/cmake_prefix_path.dsv'
+[1.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/hook/cmake_prefix_path.sh'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/lib'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/bin'
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/lib/pkgconfig/example_executor_with_multiple_modes_cpp.pc'
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/lib/python3.10/site-packages'
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/bin'
+[1.955s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.sh'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.bash'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.zsh'
+[1.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/colcon-core/packages/example_executor_with_multiple_modes_cpp)
+[1.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_executor_with_multiple_modes_cpp)
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp' for CMake module files
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp' for CMake config files
+[1.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_executor_with_multiple_modes_cpp', 'cmake_prefix_path')
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/hook/cmake_prefix_path.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/hook/cmake_prefix_path.dsv'
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/hook/cmake_prefix_path.sh'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/lib'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/bin'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/lib/pkgconfig/example_executor_with_multiple_modes_cpp.pc'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/lib/python3.10/site-packages'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/bin'
+[1.959s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.ps1'
+[1.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.dsv'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.sh'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.bash'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.zsh'
+[1.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp/share/colcon-core/packages/example_executor_with_multiple_modes_cpp)
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp -- -j20 -l20
+[1.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_local_navigation_cpp)
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp' for CMake module files
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_local_navigation_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_local_navigation_cpp
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp' for CMake config files
+[1.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_local_navigation_cpp', 'cmake_prefix_path')
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/hook/cmake_prefix_path.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/hook/cmake_prefix_path.dsv'
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/hook/cmake_prefix_path.sh'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/lib'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/bin'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/lib/pkgconfig/example_local_navigation_cpp.pc'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/lib/python3.10/site-packages'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/bin'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.dsv'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.sh'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.bash'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.zsh'
+[1.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_local_navigation_cpp/share/colcon-core/packages/example_local_navigation_cpp)
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_local_navigation_cpp)
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp' for CMake module files
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp' for CMake config files
+[1.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_local_navigation_cpp', 'cmake_prefix_path')
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/hook/cmake_prefix_path.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/hook/cmake_prefix_path.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/hook/cmake_prefix_path.sh'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/lib'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/bin'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/lib/pkgconfig/example_local_navigation_cpp.pc'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/lib/python3.10/site-packages'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_local_navigation_cpp/bin'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.ps1'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.sh'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.bash'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_local_navigation_cpp/share/example_local_navigation_cpp/package.zsh'
+[1.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_local_navigation_cpp/share/colcon-core/packages/example_local_navigation_cpp)
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_goto_global_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_goto_global_cpp -- -j20 -l20
+[1.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_goto_global_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_goto_global_cpp
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_vtol_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_vtol_cpp -- -j20 -l20
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_vtol_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_vtol_cpp
+[1.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_with_executor_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/example_mode_with_executor_cpp -- -j20 -l20
+[1.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/example_mode_with_executor_cpp': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_with_executor_cpp
+[1.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_manual_cpp)
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp' for CMake module files
+[1.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_manual_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_manual_cpp
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp' for CMake config files
+[1.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_manual_cpp', 'cmake_prefix_path')
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/hook/cmake_prefix_path.ps1'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/hook/cmake_prefix_path.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/hook/cmake_prefix_path.sh'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/lib'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/bin'
+[1.993s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/lib/pkgconfig/example_mode_manual_cpp.pc'
+[1.994s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/lib/python3.10/site-packages'
+[1.994s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/bin'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.dsv'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.sh'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.zsh'
+[1.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_manual_cpp/share/colcon-core/packages/example_mode_manual_cpp)
+[1.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_manual_cpp)
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp' for CMake module files
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp' for CMake config files
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_manual_cpp', 'cmake_prefix_path')
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/hook/cmake_prefix_path.ps1'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/hook/cmake_prefix_path.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/hook/cmake_prefix_path.sh'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/lib'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/bin'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/lib/pkgconfig/example_mode_manual_cpp.pc'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/lib/python3.10/site-packages'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_manual_cpp/bin'
+[1.997s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.ps1'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.dsv'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.sh'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.bash'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_manual_cpp/share/example_mode_manual_cpp/package.zsh'
+[1.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_manual_cpp/share/colcon-core/packages/example_mode_manual_cpp)
+[2.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_goto_cpp)
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp' for CMake module files
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_goto_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_goto_cpp
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp' for CMake config files
+[2.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_goto_cpp', 'cmake_prefix_path')
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/hook/cmake_prefix_path.ps1'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/hook/cmake_prefix_path.dsv'
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/hook/cmake_prefix_path.sh'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/lib'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/bin'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/lib/pkgconfig/example_mode_goto_cpp.pc'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/lib/python3.10/site-packages'
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/bin'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.ps1'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.dsv'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.bash'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.zsh'
+[2.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_goto_cpp/share/colcon-core/packages/example_mode_goto_cpp)
+[2.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_goto_cpp)
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp' for CMake module files
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp' for CMake config files
+[2.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_goto_cpp', 'cmake_prefix_path')
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/hook/cmake_prefix_path.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/hook/cmake_prefix_path.dsv'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/hook/cmake_prefix_path.sh'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/lib'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/bin'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/lib/pkgconfig/example_mode_goto_cpp.pc'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/lib/python3.10/site-packages'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_cpp/bin'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.ps1'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.dsv'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.sh'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.bash'
+[2.011s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_cpp/share/example_mode_goto_cpp/package.zsh'
+[2.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_goto_cpp/share/colcon-core/packages/example_mode_goto_cpp)
+[2.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_rtl_replacement_cpp)
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp' for CMake module files
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_rtl_replacement_cpp
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp' for CMake config files
+[2.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_rtl_replacement_cpp', 'cmake_prefix_path')
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/hook/cmake_prefix_path.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/hook/cmake_prefix_path.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/hook/cmake_prefix_path.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/lib/pkgconfig/example_mode_rtl_replacement_cpp.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/lib/python3.10/site-packages'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/bin'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.sh'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.bash'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.zsh'
+[2.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/colcon-core/packages/example_mode_rtl_replacement_cpp)
+[2.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_rtl_replacement_cpp)
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp' for CMake module files
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp' for CMake config files
+[2.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_rtl_replacement_cpp', 'cmake_prefix_path')
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/hook/cmake_prefix_path.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/hook/cmake_prefix_path.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/hook/cmake_prefix_path.sh'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/lib'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/bin'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/lib/pkgconfig/example_mode_rtl_replacement_cpp.pc'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/lib/python3.10/site-packages'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/bin'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.sh'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.bash'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.zsh'
+[2.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp/share/colcon-core/packages/example_mode_rtl_replacement_cpp)
+[2.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_vtol_cpp)
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp' for CMake module files
+[2.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_vtol_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_vtol_cpp
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp' for CMake config files
+[2.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_vtol_cpp', 'cmake_prefix_path')
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/hook/cmake_prefix_path.ps1'
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/hook/cmake_prefix_path.dsv'
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/hook/cmake_prefix_path.sh'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/lib'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/bin'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/lib/pkgconfig/example_mode_vtol_cpp.pc'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/lib/python3.10/site-packages'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/bin'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.ps1'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.dsv'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.sh'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.bash'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.zsh'
+[2.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/colcon-core/packages/example_mode_vtol_cpp)
+[2.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_vtol_cpp)
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp' for CMake module files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp' for CMake config files
+[2.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_vtol_cpp', 'cmake_prefix_path')
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/hook/cmake_prefix_path.ps1'
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/hook/cmake_prefix_path.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/hook/cmake_prefix_path.sh'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/lib'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/bin'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/lib/pkgconfig/example_mode_vtol_cpp.pc'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/lib/python3.10/site-packages'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_vtol_cpp/bin'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.sh'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.bash'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/example_mode_vtol_cpp/package.zsh'
+[2.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_vtol_cpp/share/colcon-core/packages/example_mode_vtol_cpp)
+[2.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_goto_global_cpp)
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp' for CMake module files
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp' for CMake config files
+[2.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_goto_global_cpp', 'cmake_prefix_path')
+[2.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/hook/cmake_prefix_path.ps1'
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_goto_global_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_goto_global_cpp
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/hook/cmake_prefix_path.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/hook/cmake_prefix_path.sh'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/lib'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/bin'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/lib/pkgconfig/example_mode_goto_global_cpp.pc'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/lib/python3.10/site-packages'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/bin'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.ps1'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.dsv'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.sh'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.bash'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.zsh'
+[2.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/colcon-core/packages/example_mode_goto_global_cpp)
+[2.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_goto_global_cpp)
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp' for CMake module files
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp' for CMake config files
+[2.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_goto_global_cpp', 'cmake_prefix_path')
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/hook/cmake_prefix_path.ps1'
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/hook/cmake_prefix_path.dsv'
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/hook/cmake_prefix_path.sh'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/lib'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/bin'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/lib/pkgconfig/example_mode_goto_global_cpp.pc'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/lib/python3.10/site-packages'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/bin'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.dsv'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.sh'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.bash'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/example_mode_goto_global_cpp/package.zsh'
+[2.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_goto_global_cpp/share/colcon-core/packages/example_mode_goto_global_cpp)
+[2.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_with_executor_cpp)
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp' for CMake module files
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp' for CMake config files
+[2.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/example_mode_with_executor_cpp' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp:/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/example_mode_with_executor_cpp
+[2.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_with_executor_cpp', 'cmake_prefix_path')
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/hook/cmake_prefix_path.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/hook/cmake_prefix_path.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/hook/cmake_prefix_path.sh'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/lib'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/bin'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/lib/pkgconfig/example_mode_with_executor_cpp.pc'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/lib/python3.10/site-packages'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/bin'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.ps1'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.sh'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.bash'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.zsh'
+[2.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/colcon-core/packages/example_mode_with_executor_cpp)
+[2.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_mode_with_executor_cpp)
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp' for CMake module files
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp' for CMake config files
+[2.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_mode_with_executor_cpp', 'cmake_prefix_path')
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/hook/cmake_prefix_path.ps1'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/hook/cmake_prefix_path.dsv'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/hook/cmake_prefix_path.sh'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/lib'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/bin'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/lib/pkgconfig/example_mode_with_executor_cpp.pc'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/lib/python3.10/site-packages'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/bin'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.sh'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.bash'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/example_mode_with_executor_cpp/package.zsh'
+[2.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/example_mode_with_executor_cpp/share/colcon-core/packages/example_mode_with_executor_cpp)
+[24.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros_com -- -j20 -l20
+[24.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros_com
+[24.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[24.630s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com' for CMake module files
+[24.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros_com
+[24.631s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com' for CMake config files
+[24.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[24.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[24.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[24.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[24.633s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/lib'
+[24.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[24.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[24.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[24.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[24.634s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/bin'
+[24.634s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[24.634s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages'
+[24.634s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/bin'
+[24.635s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[24.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[24.635s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.sh'
+[24.636s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.bash'
+[24.636s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[24.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[24.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[24.637s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com' for CMake module files
+[24.637s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com' for CMake config files
+[24.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[24.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[24.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[24.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[24.638s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/lib'
+[24.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[24.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[24.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[24.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[24.639s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/bin'
+[24.639s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[24.639s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages'
+[24.640s] Level 1:colcon.colcon_core.environment:checking '/root/ws_sensor_combined/install/px4_ros_com/bin'
+[24.640s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[24.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[24.641s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.sh'
+[24.642s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.bash'
+[24.642s] INFO:colcon.colcon_core.shell:Creating package script '/root/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[24.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ws_sensor_combined/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[24.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.643s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[24.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.679s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.679s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/0/bus: No such file or directory
+[24.679s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ws_sensor_combined/install/local_setup.ps1'
+[24.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ws_sensor_combined/install/_local_setup_util_ps1.py'
+[24.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ws_sensor_combined/install/setup.ps1'
+[24.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ws_sensor_combined/install/local_setup.sh'
+[24.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ws_sensor_combined/install/_local_setup_util_sh.py'
+[24.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ws_sensor_combined/install/setup.sh'
+[24.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ws_sensor_combined/install/local_setup.bash'
+[24.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ws_sensor_combined/install/setup.bash'
+[24.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ws_sensor_combined/install/local_setup.zsh'
+[24.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ws_sensor_combined/install/setup.zsh'

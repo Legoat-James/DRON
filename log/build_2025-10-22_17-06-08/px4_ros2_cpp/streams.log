@@ -1,0 +1,118 @@
+[0.091s] Invoking command in '/root/ws_sensor_combined/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros2_cpp -- -j20 -l20
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target px4_ros2_cpp[0m
+[0.141s] [  4%] Built target gtest
+[0.142s] [  8%] Built target unit_utils
+[0.142s] [ 10%] [32mBuilding CXX object CMakeFiles/integration_utils.dir/test/integration/util.cpp.o[0m
+[0.143s] [ 14%] Built target gtest_main
+[0.182s] [ 16%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/health_and_arming_checks.cpp.o[0m
+[0.182s] [ 18%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/manual_control_input.cpp.o[0m
+[0.185s] [ 22%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/message_compatibility_check.cpp.o[0m
+[0.185s] [ 22%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode.cpp.o[0m
+[0.187s] [ 24%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/registration.cpp.o[0m
+[0.188s] [ 26%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/wait_for_fmu.cpp.o[0m
+[0.189s] [ 28%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode_executor.cpp.o[0m
+[0.193s] [ 30%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/global_position.cpp.o[0m
+[0.194s] [ 34%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/attitude.cpp.o[0m
+[0.194s] [ 36%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/local_position.cpp.o[0m
+[0.194s] [ 36%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/vtol.cpp.o[0m
+[0.194s] [ 38%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/angular_velocity.cpp.o[0m
+[0.196s] [ 40%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/airspeed.cpp.o[0m
+[0.198s] [ 42%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/geodesic.cpp.o[0m
+[18.643s] [ 44%] [32m[1mLinking CXX shared library libintegration_utils.so[0m
+[19.083s] [ 44%] Built target integration_utils
+[28.015s] [ 46%] [32m[1mLinking CXX shared library libpx4_ros2_cpp.so[0m
+[29.961s] [ 68%] Built target px4_ros2_cpp
+[29.985s] [35m[1mConsolidate compiler generated dependencies of target integration_tests[0m
+[29.985s] [35m[1mConsolidate compiler generated dependencies of target px4_ros2_cpp_unit_tests[0m
+[30.048s] [ 70%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/arming_check.cpp.o[0m
+[30.056s] [ 72%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/local_navigation.cpp.o[0m
+[30.056s] [ 74%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/global_navigation.cpp.o[0m
+[30.057s] [ 76%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/main.cpp.o[0m
+[30.057s] [ 78%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/modes.cpp.o[0m
+[30.058s] [ 80%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/frame_conversion.cpp.o[0m
+[30.059s] [ 82%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/overrides.cpp.o[0m
+[30.059s] [ 84%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/global_navigation.cpp.o[0m
+[30.060s] [ 86%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/local_navigation.cpp.o[0m
+[30.061s] [ 88%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode.cpp.o[0m
+[30.062s] [ 90%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode_executor.cpp.o[0m
+[30.062s] [ 92%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geodesic.cpp.o[0m
+[30.063s] [ 94%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/map_projection_impl.cpp.o[0m
+[30.063s] [ 96%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geometry.cpp.o[0m
+[44.405s] [ 98%] [32m[1mLinking CXX executable px4_ros2_cpp_unit_tests[0m
+[44.629s] [100%] [32m[1mLinking CXX executable integration_tests[0m
+[44.868s] [100%] Built target px4_ros2_cpp_unit_tests
+[45.103s] [100%] Built target integration_tests
+[45.114s] Invoked command in '/root/ws_sensor_combined/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros2_cpp -- -j20 -l20
+[45.120s] Invoking command in '/root/ws_sensor_combined/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros2_cpp
+[45.125s] -- Install configuration: "RelWithDebInfo"
+[45.127s] -- Execute custom install script
+[45.127s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.sh
+[45.127s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.dsv
+[45.128s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/common/context.hpp
+[45.128s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/common/frame.hpp
+[45.128s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/common/requirement_flags.hpp
+[45.128s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/common/setpoint_base.hpp
+[45.128s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/events.hpp
+[45.128s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/groups.dox
+[45.129s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/health_and_arming_checks.hpp
+[45.129s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/manual_control_input.hpp
+[45.129s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/message_compatibility_check.hpp
+[45.129s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/mode.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/overrides.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/components/wait_for_fmu.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/groups.dox
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/peripheral_actuators.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/direct_actuators.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/attitude.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rates.hpp
+[45.130s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/fixedwing_lateral_longitudinal.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/goto.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/groups.dox
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/control/vtol.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/global_position_measurement_interface.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/local_position_measurement_interface.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/navigation_interface_base.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/odometry/airspeed.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/odometry/angular_velocity.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/odometry/attitude.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/odometry/global_position.hpp
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/odometry/groups.dox
+[45.131s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/odometry/local_position.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/utils/frame_conversion.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/utils/geodesic.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/utils/geometry.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/utils/groups.dox
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/utils/message_version.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/utils/subscription.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/battery.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/land_detected.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vehicle_status.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vtol_status.hpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/px4_ros2_cpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/px4_ros2_cpp
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.sh
+[45.132s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.dsv
+[45.133s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.sh
+[45.133s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.dsv
+[45.133s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.bash
+[45.133s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.sh
+[45.133s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.zsh
+[45.133s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.dsv
+[45.133s] -- Symlinking: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv
+[45.138s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/ament_index/resource_index/packages/px4_ros2_cpp
+[45.139s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[45.139s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.139s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig.cmake
+[45.139s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig-version.cmake
+[45.139s] -- Up-to-date symlink: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/package.xml
+[45.140s] -- Installing: /root/ws_sensor_combined/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so
+[45.230s] -- Set runtime path of "/root/ws_sensor_combined/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so" to ""
+[45.231s] -- Up-to-date: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport.cmake
+[45.231s] -- Up-to-date: /root/ws_sensor_combined/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport-relwithdebinfo.cmake
+[45.234s] Invoked command in '/root/ws_sensor_combined/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ws_sensor_combined/build/px4_ros2_cpp

@@ -1,0 +1,22 @@
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/unit_utils.dir/test/unit/utils/util.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/integration_utils.dir/test/integration/util.cpp.o[0m
+[  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/health_and_arming_checks.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/message_compatibility_check.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/overrides.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/manual_control_input.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode_executor.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/registration.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/wait_for_fmu.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/peripheral_actuators.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/vtol.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/goto.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/direct_actuators.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/fixedwing_lateral_longitudinal.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/attitude.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/rates.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/trajectory.cpp.o[0m
+[ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 42%] Built target gtest_main

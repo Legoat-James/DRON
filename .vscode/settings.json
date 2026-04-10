@@ -98,5 +98,9 @@
         "valarray": "cpp",
         "variant": "cpp"
     },
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "cSpell.words": [
+        "rclcpp"
+    ],
+    "ROS2.distro": "humble"
 }

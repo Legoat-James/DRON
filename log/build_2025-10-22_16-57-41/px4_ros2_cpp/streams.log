@@ -1,0 +1,20 @@
+[0.046s] Invoking command in '/root/ws_sensor_combined/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/root/ws_sensor_combined/install/px4_msgs:/root/ws_sensor_combined/install/px4_ros_com:/root/ws_sensor_combined/install/example_mode_with_executor_cpp:/root/ws_sensor_combined/install/example_mode_vtol_cpp:/root/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/root/ws_sensor_combined/install/example_mode_manual_cpp:/root/ws_sensor_combined/install/example_mode_goto_global_cpp:/root/ws_sensor_combined/install/example_mode_goto_cpp:/root/ws_sensor_combined/install/example_mode_fw_attitude_cpp:/root/ws_sensor_combined/install/example_local_navigation_cpp:/root/ws_sensor_combined/install/example_global_navigation_cpp:/root/ws_sensor_combined/install/example_executor_with_multiple_modes_cpp:/root/ws_sensor_combined/install/px4_ros2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/root/ws_sensor_combined/install/px4_msgs/lib:/root/ws_sensor_combined/install/px4_ros_com/lib:/root/ws_sensor_combined/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ws_sensor_combined/build/px4_ros2_cpp -- -j20 -l20
+[0.082s] [  6%] Built target gtest
+[0.082s] [  6%] [32mBuilding CXX object CMakeFiles/integration_utils.dir/test/integration/util.cpp.o[0m
+[0.084s] [ 10%] Built target gtest_main
+[0.084s] [ 14%] Built target unit_utils
+[0.103s] [ 16%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/health_and_arming_checks.cpp.o[0m
+[0.105s] [ 18%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode.cpp.o[0m
+[0.105s] [ 20%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/message_compatibility_check.cpp.o[0m
+[0.105s] [ 22%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode_executor.cpp.o[0m
+[0.106s] [ 24%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/manual_control_input.cpp.o[0m
+[0.106s] [ 26%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/wait_for_fmu.cpp.o[0m
+[0.107s] [ 28%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/registration.cpp.o[0m
+[0.112s] [ 30%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/local_position_measurement_interface.cpp.o[0m
+[0.113s] [ 32%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/vtol.cpp.o[0m
+[0.116s] [ 34%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/attitude.cpp.o[0m
+[0.117s] [ 38%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/local_position.cpp.o[0m
+[0.117s] [ 36%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/global_position.cpp.o[0m
+[0.118s] [ 40%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/angular_velocity.cpp.o[0m
+[0.125s] [ 42%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/airspeed.cpp.o[0m
+[0.125s] [ 44%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/geodesic.cpp.o[0m
