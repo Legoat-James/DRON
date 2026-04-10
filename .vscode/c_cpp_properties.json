@@ -6,10 +6,10 @@
                 "limitSymbolsToIncludedHeaders": false
             },
             "includePath": [
-                "/root/ws_sensor_combined/install/px4_ros_com/include/**",
-                "/root/ws_sensor_combined/install/px4_msgs/include/**",
+                "${workspaceFolder}/install/px4_ros_com/include/**",
+                "${workspaceFolder}/install/px4_msgs/include/**",
                 "/opt/ros/humble/include/**",
-                "/root/ws_sensor_combined/src/px4_ros_com/include/**",
+                "${workspaceFolder}/src/px4_ros_com/include/**",
                 "/usr/include/**"
             ],
             "name": "ROS",
@@ -17,9 +17,7 @@
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
             "cppStandard": "c++14",
-            "compileCommands": [
-                "${workspaceFolder}/build/px4_ros2_cpp/compile_commands.json"
-            ]
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4

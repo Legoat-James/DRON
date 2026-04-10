@@ -1,17 +1,17 @@
 {
     "python.autoComplete.extraPaths": [
-        "/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages",
-        "/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "${workspaceFolder}/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "${workspaceFolder}/install/px4_msgs/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
-        "/root/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages",
-        "/root/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "${workspaceFolder}/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "${workspaceFolder}/install/px4_msgs/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
-    "cmake.sourceDirectory": "/root/ws_sensor_combined/src/px4_ros_com",
+    "cmake.sourceDirectory": "${workspaceFolder}/src/px4_ros_com",
     "files.associations": {
         "chrono": "cpp",
         "cmath": "cpp",
